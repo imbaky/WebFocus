@@ -8,7 +8,7 @@ If you are still new to webfocus, you will soon realize that using the gui (DevS
 
 ##Syntax and Structure
 
-```
+```FOCUS
 TABLE FILE data_source
 [ print_phrase ]
 [ sort_phrase ]
