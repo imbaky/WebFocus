@@ -48,17 +48,37 @@ END
 * SUBHEAD
 
 ### Filter Definition
-* WHERE
+```
+WHERE [Column] [Qualifier] [Value] ;
+```
+Qualifiers: 
+* 'EQ': Equal
+* 'LT': Less Then
+* 'GT': Greater Then
+* 'GE': Greater then or Equal
+* 'NE': Not Equal
+* 'BETWEEN' [value_1] and [value_2] 
+* 'IN LIST' [List of values]: Checks if value is in the list of values provided
 
 ### Output Definition
+You can either output a file with your result as shown below:
+
 ```
 ON TABLE PCHOLD FORMAT [Output Format]
 ```
-#### Output Formats
+Or you can hold the results for later use like this:
+```
+ON TABLE HOLD AS [Hold_Name] FORMAT [Output Format]
+```
+
+Output Formats:
 * HTML
 * PDF
 * EXL2K
-* 
+* WP
+* ALPHA
+* XML
+* FOCUS
 
 ### Style  Definition
 ```
