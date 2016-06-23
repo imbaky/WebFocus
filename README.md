@@ -8,6 +8,7 @@ If you are still new to webfocus, you will soon realize that using the gui (DevS
 ##Terms
 * Report
 * Procedure 
+* Graph
 * Synonyms
 
 
@@ -21,11 +22,52 @@ If you are still new to webfocus, you will soon realize that using the gui (DevS
 ##Syntax and Structure
 
 ```FOCUS
-TABLE FILE data_source
-[Print Definition]
-[Sort Definition]
+-* COMMMENT 
+
+[TABLE|GRAPH] FILE [Data source]
+[Print Type]
+[Sort Type]
 [Filter Definition]
 [Output Definition]
 [Style  Definition]
 END
+
+```
+
+
+### Data Source
+* Synonyms
+
+### Print Type
+* PRINT
+* SUM
+
+### Sort Type
+* BY
+* ACROSS
+* SUBHEAD
+
+### Filter Definition
+* WHERE
+
+### Output Definition
+```
+ON TABLE PCHOLD FORMAT [Output Format]
+```
+#### Output Formats
+* HTML
+* PDF
+* EXL2K
+* 
+
+### Style  Definition
+```
+ON TABLE SET STYLESHEET *
+TYPE=type, [COLUMN=column_name],
+property=value,[property=value,]...$
+[TYPE=type, [COLUMN=column_name],
+property=value,[property=value,]...$
+[TYPE=type, [COLUMN=column_name],
+property=value, [property=value,]...$]…
+ENDSTYLE
 ```
