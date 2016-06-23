@@ -1,7 +1,7 @@
 # WebFocus
 
 ## Introduction
-Webfocus is really powerful and useful tool...but it takes a while to get used which took me a while to figure out as a coop student. So I've decided to write this to help others learn and excel in using Webfocus efficiently.
+Webfocus is really powerful and useful tool but it takes a while to get used to. I personally struggled as a Co-op student to grasp it but once you get it, it becomes alot simplier. That's why I've decided to write this to help others learn and understand it. 
 
 If you are still new to webfocus, you will soon realize that using the gui (DevStudio, AppStudio..wtv) restricts you in alot of different ways and might even discourage you from using Webfocus so what I would suggest that you learn to write focus code yourself first then you can explore the gui and actually understand what it can and can not do.
 
