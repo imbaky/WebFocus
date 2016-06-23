@@ -25,7 +25,8 @@ If you are still new to webfocus, you will soon realize that using the gui (DevS
 -* COMMMENT 
 
 [TABLE|GRAPH] FILE [Data source]
-[Print Type]
+[PRINT|SUM]
+[Data Columns]
 [Sort Type]
 [Filter Definition]
 [Output Definition]
@@ -38,9 +39,12 @@ END
 ### Data Source
 * Synonyms
 
-### Print Type
-* PRINT
-* SUM
+### Data Columns
+
+* Max.[Column_Name]
+* MIN.[Column_Name]
+* AVE.[Column_Name]
+* SUM.[Column_Name]
 
 ### Sort Type
 * BY
@@ -91,3 +95,4 @@ property=value,[property=value,]...$
 property=value, [property=value,]...$]…
 ENDSTYLE
 ```
+## Tips and Tricks
