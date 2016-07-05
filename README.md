@@ -21,7 +21,6 @@ If you are still new to webfocus, you will soon realize that using the gui (DevS
 
 ##Syntax and Structure
 
-```
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/strict.dtd">
 <html>
 <head>
@@ -58,8 +57,6 @@ span {
 </span><span class="sc0">END</span></div></body>
 </html>
 
-
-```
 
 
 ### Data Source
