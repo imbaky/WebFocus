@@ -95,4 +95,6 @@ property=value,[property=value,]...$
 property=value, [property=value,]...$]…
 ENDSTYLE
 ```
+### Charts
+### Debugging Techniques
 ## Tips and Tricks
