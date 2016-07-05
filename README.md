@@ -21,41 +21,18 @@ If you are still new to webfocus, you will soon realize that using the gui (DevS
 
 ##Syntax and Structure
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/strict.dtd">
-<html>
-<head>
-<META http-equiv=Content-Type content="text/html; charset=UTF-8">
-<title>Exported from Notepad++</title>
-<style type="text/css">
-span {
-	font-family: 'Courier New';
-	font-size: 10pt;
-	color: #000000;
-}
-.sc0 {
-}
-.sc2 {
-	color: #008000;
-}
-.sc4 {
-	color: #FF0000;
-}
-.sc24 {
-}
-</style>
-</head>
-<body>
-<div style="float: left; white-space: pre; line-height: 1; background: #FFFFFF; "><span class="sc2">-* COMMMENT 
-</span><span class="sc24">
-</span><span class="sc0">[</span><span class="sc24"> </span><span class="sc4">TABLE</span><span class="sc24"> </span><span class="sc0">|</span><span class="sc24"> </span><span class="sc4">GRAPH</span><span class="sc24"> </span><span class="sc0">]</span><span class="sc24"> </span><span class="sc4">FILE</span><span class="sc24"> </span><span class="sc0">[Data</span><span class="sc24"> </span><span class="sc0">source]</span><span class="sc24">
-</span><span class="sc0">[</span><span class="sc24"> </span><span class="sc4">PRINT</span><span class="sc24"> </span><span class="sc0">|</span><span class="sc24"> </span><span class="sc4">SUM</span><span class="sc24"> </span><span class="sc0">]</span><span class="sc24">
-</span><span class="sc0">[Data</span><span class="sc24"> </span><span class="sc0">Columns]</span><span class="sc24">
-</span><span class="sc0">[Sort</span><span class="sc24"> </span><span class="sc0">Type]</span><span class="sc24">
-</span><span class="sc0">[Filter</span><span class="sc24"> </span><span class="sc0">Definition]</span><span class="sc24">
-</span><span class="sc0">[Output</span><span class="sc24"> </span><span class="sc0">Definition]</span><span class="sc24">
-</span><span class="sc0">[Style</span><span class="sc24">  </span><span class="sc0">Definition]</span><span class="sc24">
-</span><span class="sc0">END</span></div></body>
-</html>
+```
+-* COMMMENT 
+
+[TABLE|GRAPH] FILE [Data source]
+[PRINT|SUM]
+[Data Columns]
+[Sort Type]
+[Filter Definition]
+[Output Definition]
+[Style  Definition]
+END
+```
 
 
 
